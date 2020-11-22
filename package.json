@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "cross-env next dev -p ${PORT-3000}",
     "build": "next build",
+    "export": "next export",
     "start": "next start"
   },
   "dependencies": {
