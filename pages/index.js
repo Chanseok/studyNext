@@ -14,6 +14,9 @@ export default function Home() {
         <Link href="/articles">
         <a>Article List</a>
         </Link>
+        <Link href="/second">
+        <a>Second page</a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
