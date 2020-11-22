@@ -12,11 +12,17 @@ export default function Home() {
 
       <main className={styles.main}>
         <Link href="/articles">
-        <a>Article List</a>
+          <a>Article List</a>
         </Link>
         <Link href="/second">
-        <a>Second page</a>
+          <a>Second page</a>
         </Link>
+        <div>
+          <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold">
+            tailwind button
+      </button>
+
+        </div>
       </main>
 
       <footer className={styles.footer}>
