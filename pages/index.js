@@ -19,7 +19,7 @@ export default function Home() {
           <a>Second page</a>
         </Link>
         <div>
-          <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold">
+          <button type="button" className="bg-blue-500 hover:bg-blue-700 text-white font-bold">
             tailwind button
       </button>
 
