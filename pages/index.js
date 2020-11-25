@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import { DatePicker } from 'antd';
 
 export default function Home() {
   return (
@@ -11,18 +12,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/vercel.svg"/>
+        <img src="/vercel.svg" />
         <Link href="/articles">
           <a>Article List</a>
         </Link>
         <Link href="/second">
           <a>Second page</a>
         </Link>
-        <div>
+        <div className='mb-2'>
           <button type="button" className="bg-blue-500 hover:bg-blue-700 text-white font-bold">
-            tailwind button
-      </button>
-
+            Tailwind button</button>
+        </div>
+        <div><DatePicker />
         </div>
       </main>
 
