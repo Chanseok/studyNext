@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <img src="/vercel.svg"/>
         <Link href="/articles">
           <a>Article List</a>
         </Link>
