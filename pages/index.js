@@ -20,7 +20,7 @@ export default function Home() {
           <a>Second page</a>
         </Link>
         <div className='mb-2'>
-          <button type="button" className="bg-blue-500 hover:bg-blue-700 text-white font-bold">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             Tailwind button</button>
         </div>
         <div><DatePicker />
