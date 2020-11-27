@@ -1,6 +1,7 @@
 
 import { Button } from 'antd';
 import axios from 'axios';
+import Router from 'next/router';
 
 export default function GetDouble(props) {
     return (
@@ -10,7 +11,7 @@ export default function GetDouble(props) {
          </div>
             <div className='mt-4'>
 
-                <Button>돌아가기</Button>
+                <Button onClick={()=>Router.back()}>돌아가기</Button>
             </div>
         </div>
     )
