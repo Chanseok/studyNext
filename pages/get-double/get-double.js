@@ -21,3 +21,5 @@ GetDouble.getInitialProps = async function (context) {
     const response = await axios.get('http://localhost:3000' + '/api/double?value=' + value);
     return { value: response.data.value }
 }
+
+// DynamicRoute
